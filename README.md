@@ -1,5 +1,5 @@
-## 🏋️‍♂️ GymHub – React + Vite
-# 🚀 Project Idea
+# 🏋️‍♂️ GymHub – React + Vite
+## 🚀 Project Idea
 
 - GymHub is a fitness club management app that provides two main roles:
 
@@ -19,7 +19,7 @@
 
 - Manage users, view their subscription status, and handle reservations.
 
-# ⚙️ How It Works
+## ⚙️ How It Works
 
 - Users register, log in, and access their personal data.
 
@@ -31,7 +31,7 @@
 
 - Open a booking form and create a new booking for that user.
 
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 - React – Interactive UI development
 
@@ -43,7 +43,7 @@
 
 - Tailwind CSS – Modern styling
 
-# 🏁 Getting Started
+## 🏁 Getting Started
 - git clone https://github.com/yourusername/GymHub
 - cd gymhub
 - npm install
