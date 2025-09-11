@@ -1,42 +1,50 @@
-# 🏋️‍♂️ GymHub – React + Vite
+## 🏋️‍♂️ GymHub – React + Vite
+# 🚀 Project Idea
 
----
+- GymHub is a fitness club management app that provides two main roles:
 
-## 🚀 Project Idea
+# 👤 User
 
-**GymHub** is a fitness club management app that allows users to:
+- Register and log in to the system.
 
-- **Browse available gyms and facilities**  
-- **Book training sessions or specific equipment**  
-- **Track their fitness progress and stats**  
+- View personal details and unique User ID.
 
-Administrators can **manage gyms, equipment, and bookings** easily through a dedicated admin panel.
+- Check whether they are Subscribed or Not Subscribed.
 
----
+- 🛡️ Admin
 
-## ⚙️ How It Works
+- Fetch and display a user’s data by entering their User ID in a form.
 
-- Users access the app, explore gyms and services, and make bookings.  
-- Bookings and user data are temporarily stored in `localStorage` (with the possibility to connect to a backend later).  
-- Admins can view all bookings, manage equipment, and monitor members’ progress.
+- Create bookings through a dedicated booking form.
 
----
+- Manage users, view their subscription status, and handle reservations.
 
-## 🛠️ Tech Stack
+# ⚙️ How It Works
 
-- **React** – Building interactive UIs  
-- **Vite** – Fast and lightweight development server  
-- **React Router** – Smooth page navigation  
-- **Context API** – State management  
-- **Tailwind CSS** – Modern and attractive styling  
-- **localStorage** – Temporary storage for user data
+- Users register, log in, and access their personal data.
 
----
+- The system shows subscription status (Subscribed ✅ / Not Subscribed ❌).
 
-## 🏁 Getting Started
+- Admin dashboard includes buttons to:
 
-```bash
-git clone https://github.com/yourusername/GymHub
-cd gymhub
-npm install
-npm run dev
+- Open a form to enter a User ID and fetch the user’s data.
+
+- Open a booking form and create a new booking for that user.
+
+# 🛠️ Tech Stack
+
+- React – Interactive UI development
+
+- Vite – Fast and lightweight development environment
+
+- React Router – Smooth page navigation
+
+- Context API – State management
+
+- Tailwind CSS – Modern styling
+
+# 🏁 Getting Started
+- git clone https://github.com/yourusername/GymHub
+- cd gymhub
+- npm install
+- npm run dev
